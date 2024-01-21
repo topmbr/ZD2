@@ -1,0 +1,33 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: lightblue;
+            padding: 5px;
+            width: 400px;
+
+        }
+        li:nth-child(even) {
+            background-color: skyblue;
+        }
+        .checked {
+            background-color: #ccc;
+            text-decoration: line-through;
+            
+            margin-left: 0px;
+        }
+        .unchecked {
+            background-repeat: no-repeat;
+            background-position: center left;
+            padding-left: 5px;
+            
+        }
+        .crossed {
+            background-repeat: no-repeat;
+            background-position: center right;
+            padding-right: 5    px;
+        }
